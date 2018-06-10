@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="5dp"
+    android:background="@color/colorPrimary"
+    android:layout_height="60dp">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tv2"
+        android:gravity="center"
+        android:text="UserName"
+        android:textSize="15sp" />
+
+    <TextView
+        android:singleLine="true"
+        android:maxLines="1"
+        android:id="@+id/tv2"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/textView"
+        android:text="Email"
+        android:textSize="15sp" />
+
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:text="Name:"
+        android:textSize="15sp" />
+
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignTop="@+id/tv2"
+        android:text="Email:"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btn1"
+        android:background="@drawable/outline"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:text="Remove" />
+</RelativeLayout>
+
+</android.support.v7.widget.CardView>

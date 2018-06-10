@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "754861580242",
+    "firebase_url": "https://shopkeeper-21283.firebaseio.com",
+    "project_id": "shopkeeper-21283",
+    "storage_bucket": "shopkeeper-21283.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754861580242:android:caf33d7da438f482",
+        "android_client_info": {
+          "package_name": "customer.agrawal.anuj.shopkeeper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754861580242-fi07lva6dg0auj5qon7s6f9ng7k9u9kt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "customer.agrawal.anuj.shopkeeper",
+            "certificate_hash": "f5cc353c2e26273428e3b8120ac2e192193a6e24"
+          }
+        },
+        {
+          "client_id": "754861580242-mi0uq41k0ii2lb71nm26khhvshcur239.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "754861580242-mi0uq41k0ii2lb71nm26khhvshcur239.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkk_N2MlxSePvSzLXKhl1gpTvDb3dsvwI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754861580242-mi0uq41k0ii2lb71nm26khhvshcur239.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

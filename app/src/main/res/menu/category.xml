@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <item
+                android:id="@+id/itm1"
+                android:title="Dairy"></item>
+
+            <item
+                android:id="@+id/itm2"
+                android:title="Pulses"></item>
+            <item
+                android:id="@+id/itm3"
+                android:title="Oils"></item>
+            <item
+                android:id="@+id/itm4"
+                android:title="Daily Needs"></item>
+            <item
+                android:id="@+id/itm5"
+                android:title="Home Cleaning"></item>
+
+</menu>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itm6"
+        android:title="No Discount"></item>
+    <item
+        android:id="@+id/itm7"
+        android:title="Discount(%)"></item>
+    <item
+        android:id="@+id/itm8"
+        android:title="Discount(Rupees)"></item>
+
+</menu>
